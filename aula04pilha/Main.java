@@ -4,11 +4,16 @@ public class Main{
         // Pilha<Integer> pilhaa = new Pilha<Integer>(50);
 
         // System.out.println(pilhaa.getIdade());
-        System.out.println(pilha.getNome());
+        // System.out.println(pilha.getNome());
 
-        pilha.push("A");
-        pilha.push("B");
-        pilha.push("C");
+        pilha.push("java");
+        pilha.push("javascript");
+        pilha.push("typescript");
+        pilha.imprimePilha();
+        pilha.pop();
+        pilha.push("python");
+        pilha.push("c#");
+        pilha.imprimePilha();
 
 
     }

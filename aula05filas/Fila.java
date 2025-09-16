@@ -34,6 +34,7 @@ public class Fila<T>{
             if(primeiroNo == null){
                 ultimoNo = null;
             }
+            System.out.println("dado removido: " + tempDado);
             return tempDado;
         }
     }

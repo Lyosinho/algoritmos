@@ -48,12 +48,13 @@ public class Pilha<T>{
     }
 
         public T pop(){
-            if(topo == null){
-                return null;
-            }
-            T tempDado = tempDado.getDado();
-            topo = tempDado.getNextNo();
-            return dado;
+        if(topo == null){
+            return null;
+        }
+        T dadoRemovido = topo.getDado();
+        topo = topo.getNextNo();
+        System.out.println("dado removido: " + dadoRemovido);
+        return dadoRemovido;
     }
 
     @Override

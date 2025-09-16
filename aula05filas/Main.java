@@ -1,13 +1,13 @@
 public class Main{
     public static void main(String[] args){
-        Fila<Integer> fila = new Fila<Integer>("Numeros inteiros");
-        fila.enfileirar(1);
-        fila.enfileirar(2);
-        fila.enfileirar(3);
-
+        Fila<String> fila = new Fila<String>("fila nomes");
+        fila.enfileirar("Alex");
+        fila.enfileirar("Alexx");
+        fila.enfileirar("Alexxx");
         fila.imprimeFila();
-
         fila.desenfileirar();
+        fila.enfileirar("Alexxxx");
+        fila.enfileirar("Alexxxxx");
         fila.imprimeFila();
     }
 }
